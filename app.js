@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 
 mongoose
-  .connect("mongodb+srv://Shivani:data1234@cluster0.jpwml4z.mongodb.net/")
+  .connect("mongodb+srv://admin:ZTKBFvtHJMjHp0YM@cluster0.02ctitg.mongodb.net/?retryWrites=true&w=majority")
   .then(() => {
     console.log("connected to MongoDB");
   })
@@ -18,8 +18,8 @@ mongoose
 app.get("/", (req, res) => {
   res.send("MidTerm Test");
 });
-app.listen(2000, () => {
-  console.log("Node API is running on port 2000");
+app.listen(3000, () => {
+  console.log("Node API is running on port 3000");
 });
 //Fetch all students
 app.get("/students", async (req, res) => {
