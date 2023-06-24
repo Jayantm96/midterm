@@ -1,0 +1,14 @@
+{
+  "name": "midtermjava",
+  "version": "1.0.0",
+  "description": "My name is Jayant Mahajan and my student id is 301284218",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Jayant Mahajan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
